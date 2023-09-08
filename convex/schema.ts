@@ -12,4 +12,11 @@ export default defineSchema({
     description: v.string(),
     price: v.number(),
   }),
+  session: defineTable({
+    date: v.string(),
+    startTime: v.string(),
+    endTime: v.string(),
+    duration: v.string(),
+    venue: v.string(),
+  }),
 });
